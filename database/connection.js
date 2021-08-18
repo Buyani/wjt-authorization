@@ -3,7 +3,7 @@ const mongoose=require("mongoose");
 const connectDB=()=>
 {
     try{
-        const connect=mongoose.connect("mongodb://localhost:27017/authdataapp",{
+        const connect=mongoose.connect("mongodb://localhost:27017/anotherdata",{
             useNewUrlParser: true,
             useUnifiedTopology: true,
             useFindAndModify: false,
